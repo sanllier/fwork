@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fwork", "fwork.vcxproj", "{771E8837-5DC7-424A-9A4B-DCAB8A1DA868}"
+	ProjectSection(ProjectDependencies) = postProject
+		{28A9D5D8-CC68-42AA-A0C9-ABD49292BEB2} = {28A9D5D8-CC68-42AA-A0C9-ABD49292BEB2}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DQuant", "lib\DQuant\DQuant.vcxproj", "{28A9D5D8-CC68-42AA-A0C9-ABD49292BEB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{771E8837-5DC7-424A-9A4B-DCAB8A1DA868}.Debug|Win32.ActiveCfg = Debug|Win32
+		{771E8837-5DC7-424A-9A4B-DCAB8A1DA868}.Debug|Win32.Build.0 = Debug|Win32
+		{771E8837-5DC7-424A-9A4B-DCAB8A1DA868}.Release|Win32.ActiveCfg = Release|Win32
+		{771E8837-5DC7-424A-9A4B-DCAB8A1DA868}.Release|Win32.Build.0 = Release|Win32
+		{28A9D5D8-CC68-42AA-A0C9-ABD49292BEB2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{28A9D5D8-CC68-42AA-A0C9-ABD49292BEB2}.Debug|Win32.Build.0 = Debug|Win32
+		{28A9D5D8-CC68-42AA-A0C9-ABD49292BEB2}.Release|Win32.ActiveCfg = Release|Win32
+		{28A9D5D8-CC68-42AA-A0C9-ABD49292BEB2}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
